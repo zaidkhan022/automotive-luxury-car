@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@400;700&display=swap");
+:root {
+  --bg-color: rgb(247, 248, 249);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  font-family: "PT Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(43, 45, 66);
+}
+ul {
+  list-style-type: none;
+}
+/* Typography */
+.header-text {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.text-white {
+  color: white;
+}
+.normal-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Container */
+.container {
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+/* flex classes  */
+.d-flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.gap-2 {
+  gap: 8px;
+}
+.gap-5 {
+  gap: 20px;
+}
+/* Margin Classes */
+.ms-auto {
+  margin-left: auto;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+/* buttons */
+.btn {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Social Media Section  */
+.social-media-section {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(33, 35, 53);
+  padding: 15px 0px;
+}
+.social-media-items {
+  width: 15%;
+}
+/* Header Section */
+.header-section {
+  background-color: rgb(43, 45, 66);
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  padding: 25px 0px;
+}
+.header-items {
+  padding-right: 40px;
+}
+.header-input {
+  padding: 20px 45px;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: var(--bg-color);
+  font-size: 16px;
+}
+.header-input:hover {
+  background-color: rgb(228, 229, 230);
+}
+.search-box {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  left: 17px;
+  top: 18px;
+}
+.mob-num {
+  font-weight: 900;
+  color: rgb(255, 204, 0);
+  font-size: 26px;
+}
+/* Navbar Section */
+.navbar-section {
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  padding: 8px 0px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.hover-effect:hover {
+  color: white;
+  background: rgb(205, 35, 42);
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+/* Filter Section */
+.filter {
+  margin: 50px 0px;
+}
+.filter-items {
+  background-color: black;
+  padding: 40px 30px;
+}
+.drop-down {
+  width: 23%;
+  padding: 13px 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drop-down:hover {
+  background-color: rgb(228, 229, 230);
+}
+.btn-filter {
+  width: 23%;
+  padding: 14px 15px;
+  background-color: rgb(255, 204, 0);
+  font-weight: 600;
+}
+.btn-filter:hover {
+  background-color: rgb(226, 187, 28);
+  cursor: pointer;
+}
+/* Main section */
+.pages-bg {
+  background-color: #fff;
+  padding: 20px 30px;
+}
+.header-text-main {
+  color: black;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.product {
+  padding: 15px 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(20, 18, 18, 0.247);
+}
+.img-container {
+  width: 230px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+.img-container:hover {
+  transform: scale(1.1);
+}
+.product-img {
+  width: 230px;
+  height: 100;
+}
+.prdouct-name {
+  color: black;
+}
+.discounted-price {
+  color: rgb(205, 35, 42);
+}
+.orignal-price {
+  font-size: 12px;
+}
+.more-details-btn {
+  margin: 20px 46% 0px;
+  padding: 8px 32px;
+}
+/* Footer Section */
+.footer-section {
+  width: 100%;
+  height: 280px;
+  background-color: rgb(43, 45, 66);
+  padding: 30px 0px;
+  margin-top: 50px;
+}
+.footer-nav {
+  color: white;
+}
+.social-media-items-foot {
+  margin-left: 30%;
+}
+.hover-effect-1:hover {
+  color: rgba(84, 84, 226, 0.822);
+}
+.footer-contact {
+  margin-top: 15px;
+}
+.updated-input {
+  border: none;
+  outline: none;
+  padding: 13px 10px;
+  font-size: 16px;
+}
+.updated-btn {
+  background-color: rgb(205, 35, 42);
+  color: white;
+}
+.updated-btn:hover {
+  background-color: rgb(240, 45, 52);
+}
+/* Copyright Section */
+.copyright-cont {
+  width: 100%;
+  background-color: rgb(33, 35, 53);
+  color: rgb(164, 178, 191);
+  font-size: 14px;
+  padding: 20px 100px;
+  box-sizing: border-box;
+}
+.copyright-text {
+  color: white;
+}
